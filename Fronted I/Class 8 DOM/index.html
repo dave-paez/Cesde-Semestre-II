@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM JavaScript</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <h1 id="titulo">Bienvenidos a la manipualcion del DOM</h1>
+    <p id="parrafo">Este es un texto desarrollado directamente desde el html</p>
+    <p class="parrafo1">soy Dave</p>
+    <p class="parrafo1">soy desarrollador fronted</p>
+    <div id="contenedor">
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus architecto temporibus eveniet odit rem ratione. Repudiandae non, earum quidem illum sed magnam doloremque repellendus dolores ratione aliquam, fugit distinctio aperiam.</p>
+    
+    <section>
+        <img src="" alt="asfaswsdw">
+    </section>
+    <h1>Hola como estas</h1>
+    </div>
+    <!-- 
+        >contiene
+        {} contenido de texto
+        $ numeracion al texto
+        * factor de multiplicacion
+        () agrupar elementos internos
+        + genera hermanos -->
+
+    <!-- nav#menu>ul#lista>li.item{hijos}*4 -->
+
+    <nav id="menu">
+        <ul id="lista">
+            <li class="item">hijo1</li>
+            <li class="item">hijo2</li>
+            <li class="item">hijo3</li>
+            <li class="item">hijo4</li>
+        </ul>
+    </nav>
+
+    <!-- .cont>(#contIzq>h1+p)+(.contDer>img*2)  -->
+
+     <div class="cont">
+        <div id="contIzq">
+            <h1></h1>
+            <p></p>
+        </div>
+        <div class="contDer"><img class="img1" src="" alt=""><img src="" alt=""></div>
+     </div>
+    <script src="/js/App.js"></script>
+</body>
+</html>

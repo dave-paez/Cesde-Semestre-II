@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Manipulación del DOM - Ejercicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="container" id="main-container">
+        <h1>Configurador de Perfil</h1>
+        
+        <div class="form-group">
+            <label for="username">Nombre del Usuario:</label>
+            <input type="text" id="username" placeholder="Escribe tu nombre...">
+
+            <label for="profession">Que profesion ejerces?:</label>
+            <input type="text" id="profession" placeholder="Escribe tu profesion...">
+
+            <label for="exp">Cuanta experiencia tienes?:</label>
+            <input type="text" id="exp" placeholder="Escribe tus años de experiencia...">
+        </div>
+
+        <div class="form-group">
+            <label for="colorPicker">Color de fondo:</label>
+            <input type="color" id="colorPicker" value="#ffffff">
+        </div>
+
+        <button id="btn-update" onclick="CrearTarjeta()">Actualizar Vista</button>
+
+        <hr>
+
+        <div id="display-area">
+            <p id="parrafo">Esperando datos...</p>
+        </div>
+    </div>
+
+    <script src="/js/App.js"></script>
+</body>
+</html>

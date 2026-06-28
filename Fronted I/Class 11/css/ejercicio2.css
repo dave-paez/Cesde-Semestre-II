@@ -1,0 +1,18 @@
+.card {
+    border: 2px solid #333;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    background-color: #fff;
+}
+
+#task-list {
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.highlight-list {
+    background-color: #fff3cd;
+    border-left: 5px solid #ffc107;
+    padding: 10px;
+}

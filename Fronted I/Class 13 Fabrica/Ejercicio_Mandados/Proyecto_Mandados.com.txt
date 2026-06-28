@@ -1,0 +1,62 @@
+Proyecto Mandados.com
+
+Lista Interactiva con Manipulación del DOM
+
+Objetivo: Diseña y desarrolla el archivo JavaScript para una página web cuya interfaz gráfica corresponde al diseño proporcionado en el html y css, se debe crear una lista de tareas por desarrollar, la interfaz debe contener un campo de entrada tareas y un botón para agregarlas.
+El objetivo es implementar la funcionalidad interactiva de crear una lista de tareas en la cual cada tarea añadida debe contener dos botones de confirmar para completar tarea y eliminar, empleando manipulación del DOM, creación dinámica de elementos y gestión de eventos.
+
+Requerimientos Funcionales.
+
+Agregar nuevos ítems a la lista.
+
+El usuario debe poder escribir un texto en el campo de entrada de datos.
+
+Al hacer clic en el botón “crear tarea”, se debe crear un nuevo ítem dentro de la lista.
+
+Cada ítem debe generarse dinámicamente mediante JavaScript, agregándose al contenedor donde están los elementos de la lista.
+
+Marcar un ítem como completado
+
+Cada ítem debe incluir un elemento que permita “chulearlo” (por ejemplo un icono de chek).
+
+Al marcarlo como completado:
+
+El texto del ítem debe mostrarse subrayado.
+
+El contenedor del ítem debe cambiar de color para indicar que está completado.
+
+Si se desmarca, el ítem debe volver a su estilo normal.
+
+Eliminar ítems de la lista
+
+Cada ítem debe incluir un botón o icono para eliminarlo de la lista.
+
+Al hacer clic, el elemento debe eliminarse completamente del DOM.
+
+Validaciones básicas
+
+No se deben crear ítems si el campo de texto está vacío.
+
+Se debe limpiar el campo de entrada después de agregar un ítem.
+
+Restricciones Técnicas
+
+Todo debe hacerse mediante manipulación del DOM usando JavaScript (sin frameworks).
+
+Debes usar:
+
+createElement()
+
+appendChild()
+
+remove()
+
+classList.add()/remove()/toggle()
+
+Eventos como click y change
+
+La estructura HTML y el diseño ya están dados por la interfaz de la imagen. Tu trabajo consiste únicamente en crear la lógica en JavaScript.
+
+Resultado Esperado
+
+Al finalizar, la página debe permitir agregar ítems, marcarlos como completados aplicando los cambios visuales requeridos, y eliminarlos de manera dinámica, todo funcionando de forma fluida y acorde al diseño original.
